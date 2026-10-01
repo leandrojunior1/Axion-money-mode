@@ -13,6 +13,18 @@ Como um projeto orientado a produto, sua concepção focou na experiência do us
 * Integrações e Pagamentos: Estrutura preparada para conexão com APIs externas e gateways de pagamento (como Stripe).
 * Automação e Inteligência: Implementação de lógicas voltadas a agentes e gerenciamento de estados.
 
+## Problemas Encontrados
+Durante o desenvolvimento do projeto, os principais desafios enfrentados foram:
+* Transição de Complexidade: Salto na complexidade estrutural e de organização de código em comparação com o desenvolvimento tradicional em HTML vanilla.
+* Integração de Banco de Dados: Dificuldades iniciais para conectar e estruturar o banco de dados (Supabase) de forma funcional e fluida com a aplicação.
+* Sincronização de Dados: Complexidade em gerenciar o fluxo de dados assíncronos entre as telas e as requisições do sistema.
+
+## Soluções Aplicadas e Apoio Tecnológico
+Para superar os obstáculos técnicos e garantir a evolução do software, foram adotadas as seguintes medidas:
+* Modularização do Código: Separação gradual das responsabilidades em componentes menores para mitigar a complexidade em relação ao HTML vanilla.
+* Padronização de Consultas: Refatoração das chamadas e estruturação correta do fluxo de conexão com o banco de dados, garantindo estabilidade e persistência funcional.
+* Uso de IA no Processo de Desenvolvimento: Apoio do Gemini para debugar trechos complexos, estruturar lógicas iniciais de integração com o banco de dados e acelerar a resolução de bugs durante a construção das telas.
+
 ## Tecnologias Utilizadas
 * Linguagens: JavaScript, TypeScript, HTML5, CSS3
 * Ferramentas de Apoio: Git, Supabase (banco de dados/autenticação), prototipagem e controle de fluxo.
